@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=FourthRatings
+comment1.params=
+comment1.target=FourthRatings()
+comment10.params=id\ numSimilarRater\ minimalRaters\ filterCriteria
+comment10.target=java.util.ArrayList\ getSimilarRatingsByFilter(java.lang.String,\ int,\ int,\ Filter)
+comment2.params=ratingsfile
+comment2.target=FourthRatings(java.lang.String)
+comment3.params=id\ minimalRaters
+comment3.target=double\ getAverageByID(java.lang.String,\ int)
+comment4.params=ratings\ movies\ minimalRaters
+comment4.target=void\ computeAverageRatings(java.util.ArrayList,\ java.util.ArrayList,\ int)
+comment5.params=minimalRaters
+comment5.target=java.util.ArrayList\ getAverageRatings(int)
+comment6.params=minimalRaters\ filterCriteria
+comment6.target=java.util.ArrayList\ getAverageRatingsByFilter(int,\ Filter)
+comment7.params=me\ r
+comment7.target=double\ dotProduct(Rater,\ Rater)
+comment7.text=\r\n\ This\ method\ should\ first\ translate\ a\ rating\ from\ the\ scale\ 0\ to\ 10\r\n\ to\ the\ scale\ -5\ to\ 5\ and\ return\ the\ dot\ product\ of\ the\ ratings\ of\r\n\ movies\ that\ they\ both\ rated.\r\n\ This\ method\ will\ be\ called\ by\ getSimilarities.\r\n
+comment8.params=id
+comment8.target=java.util.ArrayList\ getSimilarities(java.lang.String)
+comment8.text=\r\n\ this\ method\ computes\ a\ similarity\ rating\ for\ each\ rater\ in\ the\ RaterDatabase\ \r\n\ (except\ the\ rater\ with\ the\ ID\ given\ by\ the\ parameter)\ to\ see\ \r\n\ how\ similar\ they\ are\ to\ the\ Rater\ whose\ ID\ is\ the\ parameter\ to\ getSimilarities.\ \r\n\ This\ method\ returns\ an\ ArrayList\ of\ type\ Rating\ sorted\ by\ ratings\ \r\n\ from\ highest\ to\ lowest\ rating\ with\ the\ highest\ rating\ first\ and\ \r\n\ only\ including\ those\ raters\ who\ have\ a\ positive\ similarity\ rating\ since\ those\ with\ negative\ values\ are\ not\ similar\ in\ any\ way.\r\n
+comment9.params=id\ numSimilarRater\ minimalRaters
+comment9.target=java.util.ArrayList\ getSimilarRatings(java.lang.String,\ int,\ int)
+comment9.text=\r\n\ \ This\ method\ should\ return\ an\ ArrayList\ of\ type\ Rating,\ of\ movies\ and\ \r\n\ \ their\ weighted\ average\ ratings\ using\ only\ the\ top\ numSimilarRaters\ with\ positive\ ratings\ and\ \r\n\ \ including\ only\ those\ movies\ that\ have\ at\ least\ minimalRaters\ ratings\ from\ those\ most\ similar\ raters\ \r\n\ \ (not\ just\ minimalRaters\ ratings\ overall).\r\n
+numComments=11

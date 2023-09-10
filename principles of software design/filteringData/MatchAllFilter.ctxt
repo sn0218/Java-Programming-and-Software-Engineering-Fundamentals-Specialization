@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MatchAllFilter
+comment1.params=
+comment1.target=MatchAllFilter()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=f
+comment3.target=void\ addFilter(Filter)
+comment4.params=qe
+comment4.target=boolean\ satisfies(QuakeEntry)
+comment5.params=
+comment5.target=void\ testMatchAllFilter()
+comment6.params=
+comment6.target=void\ testMatchAllFilter2()
+comment7.params=quakeData\ f
+comment7.target=java.util.ArrayList\ filter(java.util.ArrayList,\ Filter)
+numComments=8
